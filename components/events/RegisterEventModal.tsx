@@ -128,7 +128,10 @@ export default function RegisterEventModal({ event }: RegisterEventModalProps) {
         <ProfileForm event={event} className="px-4" />
         <DrawerFooter className="pt-2">
           <DrawerClose asChild>
-            <Button className="bg-white/30 text-white" variant="ghost">
+            <Button
+              className="bg-foreground/30 text-foreground"
+              variant="ghost"
+            >
               Cancel
             </Button>
           </DrawerClose>

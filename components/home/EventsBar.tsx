@@ -4,6 +4,7 @@ import {
   Gamepad2Icon,
   GitCompare,
   LucideIcon,
+  PencilRuler,
   TerminalSquareIcon,
 } from "lucide-react";
 import Image from "next/image";
@@ -37,10 +38,10 @@ const EventsBar = () => {
             description="Occaecat ut esse cillum sint velit qui velit mollit Lorem ad. Amet aliqua aute consectetur irure enim aliquip cillum ut. Ullamco aliqua eu non ea proident minim et dolore aliqua consequat labore laborum qui."
           />
           <Card
-            title="Hackathon"
-            Icon={GitCompare}
-            description="Non exercitation do nulla et eu voluptate nostrud et reprehenderit adipisicing quis. Anim anim qui magna quis officia sint ea commodo proident ex tempor aliquip magna. Nostrud et veniam occaecat consequat excepteur aliquip veniam exercitation."
+            title="Workshop "
+            Icon={PencilRuler}
             className="md:col-span-2"
+            description="Occaecat ut esse cillum sint velit qui velit mollit Lorem ad. Amet aliqua aute consectetur irure enim aliquip cillum ut. Ullamco aliqua eu non ea proident minim et dolore aliqua consequat labore laborum qui."
           />
         </div>
       </div>
@@ -64,29 +65,29 @@ const Card = ({ className, title, description, Icon }: CardProps) => {
     <div
       className={cn(
         className,
-        "group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:rounded-lg sm:px-10"
+        "group hover:shadow-white/10 relative cursor-pointer overflow-hidden bg-background px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:rounded-lg sm:px-10"
       )}
     >
-      <span className="absolute top-10 z-0 h-20 w-20 invisible group-hover:visible rounded-full bg-ui-primary transition-all duration-700 group-hover:scale-[30]"></span>
+      {/* <span className="absolute top-10 z-0 h-20 w-20 invisible group-hover:visible rounded-full bg-ui-primary transition-all duration-700 group-hover:scale-[30]"></span> */}
       <div className="relative z-10 ">
         <div className="flex flex-col lg:flex-row items-center gap-4">
-          <span className="grid h-20 w-20 place-items-center rounded-full bg-ui-primary transition-all duration-300 group-hover:bg-ui-primary/90 group-hover:border group-hover:border-white/80">
-            <ICON className="h-10 w-10 text-white transition-all" />
+          <span className="grid h-20 w-20 place-items-center rounded-full bg-ui-primary transition-all duration-300 group-hover:bg-ui-primary/90 group-hover:border group-hover:border-foreground/80">
+            <ICON className="h-10 w-10 text-secondary transition-all" />
           </span>
 
-          <p className="space-y-6 text-center md:text-left font-semibold text-base line-clamp-2 leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+          <p className="space-y-6 text-center md:text-left font-semibold text-base line-clamp-2 leading-7 text-foreground transition-all duration-300 group-hover:text-foreground/90">
             {title}
           </p>
           <Link href={"/events"}>
             <Button
-              className="lg:ml-auto group-hover:text-white/90"
-              variant={"destructive"}
+              className="lg:ml-auto group-hover:text-foreground/90"
+              variant={"secondary"}
             >
               Explore
             </Button>
           </Link>
         </div>
-        <div className="space-y-6 pt-5 text-sm text-justify text-gray-600 transition-all duration-500 group-hover:text-white/90">
+        <div className="space-y-6 pt-5 text-sm text-justify text-foreground transition-all duration-500 group-hover:text-foreground/90">
           <p>{description}</p>
         </div>
       </div>

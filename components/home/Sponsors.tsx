@@ -14,7 +14,7 @@ const Sponsors = () => {
       </h1>
       <Marquee
         direction="right"
-        gradientColor="white"
+        gradientColor="foreground"
         className="w-screen h-fit  text-background p-4"
         speed={50}
         pauseOnHover

@@ -69,13 +69,13 @@ const Header = () => {
       ref={navRef}
       className={cn(
         path == "/" ? "opacity-0" : "opacity-100",
-        "border-b  border-white/20 sticky top-0 z-50 bg-background/95"
+        "border-b  border-foreground/20 fixed w-full top-0 z-50 bg-background/95"
       )}
     >
       <div className="flex justify-between p-4 lg:px-16 xl:max-w-7xl xl:mx-auto items-center">
         <Link href={"/"}>
           <h1 className="text-ui-purple-50 text-base font-bold tracking-wider">
-            AI Zypher
+            Cloud Con&apos;24
           </h1>
         </Link>
         <div className="hidden md:inline-flex gap-4 items-center">

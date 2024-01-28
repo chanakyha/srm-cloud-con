@@ -47,7 +47,7 @@ const DashboardPage = async () => {
       return (
         <div className="h-fix w-screen container-fix">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="container-fix p-4 mx-auto w-full md:w-fit flex flex-col md:flex-row items-center gap-4 border border-white/30 rounded-lg">
+            <div className="container-fix p-4 mx-auto w-full md:w-fit flex flex-col md:flex-row items-center gap-4 border border-foreground/30 rounded-lg">
               <Image
                 src={session?.user?.image!}
                 alt="profile-pic"
@@ -62,7 +62,7 @@ const DashboardPage = async () => {
                 <SignoutButton />
               </div>
             </div>
-            <div className="container-fix p-4 mx-auto w-full md:w-fit grid grid-cols-1 gap-2 border border-white/30 rounded-lg">
+            <div className="container-fix p-4 mx-auto w-full md:w-fit grid grid-cols-1 gap-2 border border-foreground/30 rounded-lg">
               <div className="flex items-center gap-2">
                 <h1 className="font-semibold">
                   University Registration Number:
@@ -85,7 +85,7 @@ const DashboardPage = async () => {
             </div>
           </div>
           <div className="flex gap-4 flex-col text-gray-400 my-8">
-            <h1 className="text-left text-2xl text-white font-semibold underline underline-offset-8 decoration-ui-primary">
+            <h1 className="text-left text-2xl text-foreground font-semibold underline underline-offset-8 decoration-ui-primary">
               Your Passes
             </h1>
 
@@ -161,7 +161,7 @@ const DashboardPage = async () => {
                 : "flex gap-4 flex-col text-gray-400 my-8"
             )}
           >
-            <h1 className="text-left text-2xl text-white font-semibold underline underline-offset-8 decoration-ui-primary">
+            <h1 className="text-left text-2xl text-foreground font-semibold underline underline-offset-8 decoration-ui-primary">
               Verification Pending Details
             </h1>
             <div className="grid grid-cols-1 md:gris-cols-3 lg:grid-cols-4">

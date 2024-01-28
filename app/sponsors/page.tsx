@@ -43,7 +43,7 @@ const SponsorCategory = ({ title, images }: SponsorCategoryProps) => {
           return (
             <div
               key={index}
-              className="bg-white flex items-center px-4 py-2 rounded-lg"
+              className="bg-foreground flex items-center px-4 py-2 rounded-lg"
             >
               <Image
                 src={image}
