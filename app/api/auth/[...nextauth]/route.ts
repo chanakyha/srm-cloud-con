@@ -12,7 +12,12 @@ const authOptions: NextAuthOptions = {
     async signIn({ profile }) {
       const docRef = doc(db, "users", profile?.email!);
       const currentUser = await getDoc(docRef);
-      if (profile?.email === "vetrichanakyha2003@gmail.com") return true;
+      if (
+        profile?.email === "vetrichanakyha2003@gmail.com" ||
+        profile?.email === "charankarthikeyanchn@gmail.com" ||
+        profile?.email === "cloudcon@gmail.com"
+      )
+        return true;
 
       await setDoc(docRef, { ...profile, registered: false }, { merge: true });
 

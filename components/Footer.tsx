@@ -65,7 +65,7 @@ const Footer = () => {
       <div className="w-full h-[1px] bg-gray-300" />
       <div className="p-4 flex flex-col gap-4 md:flex-row md:justify-between md:px-16 xl:max-w-7xl xl:mx-auto ">
         <div className="text-nav flex flex-col text-center md:text-left md:flex-row md:gap-4">
-          <p className="text-sm">© 2024 Cloud Con'24</p>•
+          <p className="text-sm">© 2024 Cloud Con&apos;24</p>•
           <p className="text-sm hover:underline cursor-pointer">
             Designed and Developed by Students of Dept.of CSE AIML
           </p>
