@@ -34,7 +34,7 @@ const FAQs = () => {
     },
   ];
   return (
-    <div className="w-screen bg-black">
+    <div className="w-screen bg-background">
       <div className="container-fix">
         <h1 className="text-center text-2xl text-white font-semibold underline underline-offset-8 decoration-ui-primary">
           General FAQs

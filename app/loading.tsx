@@ -6,7 +6,7 @@ import EventLogo from "@/images/event-logo.png";
 
 const LoadingComponent = () => {
   return (
-    <div className="h-screen w-screen fixed top-0 bg-black z-50 flex flex-col md:flex-row items-center justify-center gap-10">
+    <div className="h-screen w-screen fixed top-0 bg-background z-50 flex flex-col md:flex-row items-center justify-center gap-10">
       <Image
         src={EventLogo}
         alt="event-logo"

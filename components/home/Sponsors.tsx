@@ -9,13 +9,13 @@ const Sponsors = () => {
   const sponsorImages = [GoogleImage, MicrosoftImage, GithubImage];
   return (
     <div className="bg-ui-lightBg py-4 px-4 md:px-16">
-      <h1 className="text-center text-2xl text-black font-semibold underline underline-offset-8 decoration-ui-primary">
+      <h1 className="text-center text-2xl text-background font-semibold underline underline-offset-8 decoration-ui-primary">
         Sponsors
       </h1>
       <Marquee
         direction="right"
         gradientColor="white"
-        className="w-screen h-fit  text-black p-4"
+        className="w-screen h-fit  text-background p-4"
         speed={50}
         pauseOnHover
         autoFill

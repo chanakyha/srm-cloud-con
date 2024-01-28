@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const EventsBar = () => {
   return (
-    <div className="h-full w-screen relative bg-black">
+    <div className="h-full w-screen relative bg-background">
       <Image
         src={BG}
         alt="bg-image"

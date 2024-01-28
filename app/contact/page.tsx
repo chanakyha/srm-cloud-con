@@ -57,7 +57,7 @@ interface CardProps {
 const Card = ({ contact }: CardProps) => {
   return (
     <div className='w-full h-80 border rounded-lg bg-[url("https://res.cloudinary.com/deibx8nfv/image/upload/v1679303863/texus2k23/eventcard_iemlil.png")] bg-cover bg-center bg-no-repeat rounded-md'>
-      <div className="w-full h-full flex flex-col lg:flex-row lg:items-center justify-around p-4 bg-gradient-to-t lg:bg-gradient-to-l from-black/75 to-transparent">
+      <div className="w-full h-full flex flex-col lg:flex-row lg:items-center justify-around p-4 bg-gradient-to-t lg:bg-gradient-to-l from-background/75 to-transparent">
         <div className="w-full hover:scale-105 duration-100 ease-out cursor-pointer lg:w-1/3 flex justify-center rounded-full">
           <Image
             width={100}

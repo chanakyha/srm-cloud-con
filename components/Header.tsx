@@ -69,7 +69,7 @@ const Header = () => {
       ref={navRef}
       className={cn(
         path == "/" ? "opacity-0" : "opacity-100",
-        "border-b  border-white/20 sticky top-0 z-50 bg-black/95"
+        "border-b  border-white/20 sticky top-0 z-50 bg-background/95"
       )}
     >
       <div className="flex justify-between p-4 lg:px-16 xl:max-w-7xl xl:mx-auto items-center">
