@@ -33,7 +33,7 @@ import * as z from "zod";
 
 const formSchema = z.object({
   title: z.string().min(2).max(50),
-  desc: z.string().min(2).max(50),
+  desc: z.string().min(2),
   team_size: z.object({
     max: z.string().min(1).max(2),
     min: z.string().min(1).max(2),
@@ -79,7 +79,7 @@ const AddEvent = () => {
     console.log(values);
     const colRef = collection(db, "events");
     const snapshot = await getCountFromServer(colRef);
-    const newID = `Az${lpad(String(snapshot.data().count + 1), 3)}`;
+    const newID = `CC${lpad(String(snapshot.data().count + 1), 3)}`;
 
     const docRef = doc(db, "events", newID);
     const screenshotRef = ref(storage, `events/${newID}`);
