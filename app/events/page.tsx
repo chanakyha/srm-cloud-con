@@ -43,7 +43,7 @@ const EventsPage = async () => {
         <Image
           alt="event-banner"
           src={
-            "https://res.cloudinary.com/dsly5o0xk/image/upload/v1705831614/ai-zypher/event-banner_xmcz8n.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/srm-cloud-con.appspot.com/o/OVERALL%20poster.png?alt=media&token=f47cf116-625f-4884-89c5-d93ff7a0fc02"
           }
           width={1920}
           height={1080}
