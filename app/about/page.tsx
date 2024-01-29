@@ -10,24 +10,16 @@ const AboutPage = () => {
               About
             </h1>
             <p className="text-foreground/70 text-justify mt-3 text-base">
-              Welcome to AI-ZYPHER 24, the flagship intercollege technical
-              festival hosted by SRM Institute of Science and Technology&apos;s
-              Department of Computer Science and Engineering on April 21st and
-              22nd, 2023. This two-day extravaganza is a celebration of
-              intellect, innovation, and creativity, offering a diverse range of
-              activities, from cutting-edge technical events like coding
-              competitions and robotics challenges to non-technical pursuits
-              such as art exhibitions and gaming competitions. Engage in an
-              intensive hackathon, attend exclusive workshops and seminars by
-              industry experts, and seize networking opportunities to connect
-              with like-minded individuals and industry professionals. As we
-              invite you to be part of this journey, consider sponsoring
-              AI-ZYPHER 24 to align your brand with innovation, gain exposure to
-              a talented audience, and contribute to the advancement of
-              technology. Contact our Sponsorship Coordinators today and join us
-              in making AI-ZYPHER 24 an unforgettable experience at the
-              forefront of technological evolution. Don&apos;t miss the chance
-              to be a catalyst for change at AI-ZYPHER 24!
+              Welcome to Cloud Con 24, the pinnacle intercollege cloud computing
+              event hosted by SRM Institute of Science and Technology&apos;s
+              Department of Computer Science and Engineering on February 17,
+              2024. This one-day extravaganza is a celebration of cloud
+              technology, fostering intellect, innovation, and creativity. Join
+              us for a focused day of activities, including cutting-edge
+              technical events like cloud coding competitions and virtualization
+              challenges, as well as engaging non-technical pursuits such as art
+              exhibitions and gaming competitions—all centered around the theme
+              of cloud computing.
             </p>
           </div>
           <div className="flex items-center p-4 md:p-16 justify-center w-full">

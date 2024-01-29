@@ -21,7 +21,7 @@ const EventsDivider = () => {
         </p>
         <StarIcon className="text-secondary fill-ui-primary" />
         <p className="text-lg text-secondary uppercase font-semibold">
-          Hackathon
+          Workshop
         </p>
         <StarIcon className="text-secondary fill-ui-primary" />
       </div>

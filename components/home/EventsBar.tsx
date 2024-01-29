@@ -26,22 +26,16 @@ const EventsBar = () => {
           Events Category
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 container-fix px-0 md:px-16 xl:max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 container-fix md:items-stretch px-0 md:px-16 xl:max-w-6xl">
           <Card
             title="Technical Events"
             Icon={TerminalSquareIcon}
-            description="Technical events are gatherings or conferences that focus on various aspects of technology, innovation, and industry-specific advancements. These events serve as platforms for professionals, experts, enthusiasts, and industry leaders to come together, share knowledge, and discuss the latest trends and developments in their respective fields."
+            description="Technical events are forums or symposiums dedicated to exploring various facets of technology, innovation, and advancements specific to industries. These gatherings offer a platform for professionals, experts, enthusiasts, and industry leaders to convene, exchange insights, and deliberate on the latest trends and progressions within their respective domains."
           />
           <Card
             title="Non Technical Events"
             Icon={Gamepad2Icon}
-            description="Occaecat ut esse cillum sint velit qui velit mollit Lorem ad. Amet aliqua aute consectetur irure enim aliquip cillum ut. Ullamco aliqua eu non ea proident minim et dolore aliqua consequat labore laborum qui."
-          />
-          <Card
-            title="Workshop "
-            Icon={PencilRuler}
-            className="md:col-span-2"
-            description="Occaecat ut esse cillum sint velit qui velit mollit Lorem ad. Amet aliqua aute consectetur irure enim aliquip cillum ut. Ullamco aliqua eu non ea proident minim et dolore aliqua consequat labore laborum qui."
+            description="Non-technical events are gatherings or conferences that emphasize diverse aspects outside the realm of technology, encompassing fields such as arts, culture, entertainment, and other non-specialized domains. These events provide platforms for individuals from various backgrounds, including artists, creatives, enthusiasts, and leaders, to converge, exchange ideas, and explore the latest trends and innovations in their respective non-technical domains. They serve as opportunities to foster collaboration, share insights, and celebrate creativity across a wide spectrum of interests."
           />
         </div>
       </div>

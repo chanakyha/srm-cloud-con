@@ -139,7 +139,7 @@ const RegistrationForm = ({ name, email }: RegistrationFormProps) => {
                 Department <span className="text-red-500">*</span>
               </FormLabel>
               <FormControl>
-                <Input placeholder="Dept of CSE AIML" {...field} />
+                <Input placeholder="Dept of CSE CC" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

@@ -22,9 +22,9 @@ export default async function Home() {
   return (
     <main className="">
       <Hero />
-      <Events />
-      <EventsBar />
       <Sponsors />
+      <EventsBar />
+      <Events />
       <FAQs />
     </main>
   );

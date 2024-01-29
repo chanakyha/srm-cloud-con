@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import Header from "@/components/Header";
@@ -8,7 +8,7 @@ import { getServerSession } from "next-auth";
 import SessionProvider from "@/components/SessionProvider";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const mont = Montserrat({ subsets: ["latin"] });
+const mont = Poppins({ subsets: ["latin"], weight: "600" });
 
 export const metadata: Metadata = {
   title: "Cloud Con'24",
