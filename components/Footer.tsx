@@ -52,10 +52,10 @@ const Footer = () => {
               <input
                 type="text"
                 readOnly
-                value={"ai-zypher@gmail.com"}
+                value={"cloudcon24@gmail.com"}
                 className="bg-transparent flex-1 outline-none text-sm"
               />
-              <Link href={"mailto:ai-zypher@gmail.com"}>
+              <Link href={"mailto:cloudcon24@gmail.com"}>
                 <ArrowRight className="hover:translate-x-1 transition-all duration-300 ease-in-out cursor-pointer" />
               </Link>
             </div>
