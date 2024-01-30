@@ -8,9 +8,9 @@ import {
 const FAQs = () => {
   const faqs: faqType[] = [
     {
-      question: "Who can participate in the technical event?",
+      question: "Who can participate in Cloud Con 24?",
       answer:
-        "The event is open to students, faculty members, industry professionals, and anyone with a keen interest in technology. Participants from diverse backgrounds and expertise levels are encouraged to join.",
+        "Cloud Con 24 is open to all college students across disciplines who are interested in technology and cloud computing.",
     },
     {
       question: "Can I receive a certificate of participation?",
